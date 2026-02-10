@@ -22,7 +22,7 @@ jobs:
       - name: Checkout aricloverEXTRA/sdks
         uses: actions/checkout@main
         with:
-          repository: aricloverEXTRA/sdks
+          repository: xybp888/iOS-SDKs
           ref: master
           sparse-checkout: iPhoneOS17.5.sdk
           path: theos/sdks
